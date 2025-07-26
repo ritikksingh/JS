@@ -8,7 +8,7 @@ console.log(accountId);
 accountEmail = "sanu@57767"
 accountPassword = "9876"
 accountCity = "mirzapur"
-let accountState;
+let accountState; //variable declare but value not define
 
 
 /*
