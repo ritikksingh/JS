@@ -21,4 +21,4 @@ let state;
 // object 
 
 console.log(typeof undefined);  //type=> undefined
-console.log(typeof null);  // Object
+console.log(typeof null);  // Objects
