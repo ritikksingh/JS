@@ -45,3 +45,33 @@ const myFunction = function(){
     
 }
 console.log(typeof myFunction);
+
+
+
+////************************************************************************
+//  Stack Memory(Premitive),
+//  Heap Memory (Non- Premitive)
+
+
+let myYoutubename = "Patel_ritikyoutubedotcom"
+
+let anotherName= myYoutubename
+anotherName= "sanuyoutube.com"
+
+console.log(myYoutubename);
+
+console.log(anotherName);
+
+
+let userOne= {
+    email: "Ritik9956730@gmail.com" ,
+    upi: "ritik9956@axl"
+
+}
+
+let userTwo= userOne
+
+userTwo.email = "sanu@9978"
+
+console.log(userOne.email);
+console.log(userTwo.email);
