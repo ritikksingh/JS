@@ -32,22 +32,54 @@ const obj3= {...Obj1, ...Obj2}
 
 const users =[{
     id:1,
-    emial:"efdeg@557"
+    email:"efdeg@557"
 },
 {
     id:1,
-    emial:"efdeg@557"
+    email:"efdeg@557"
 },
 {
     id:1,
-    emial:"efdeg@557"
+    email:"efdeg@557"
 }
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+
+// De-structuring 
+
+const course = {
+    courseName : "aimerzHindi",
+    price : 18000,
+    courseInstructure : "Vishwa"
+}
+
+// course.courseInstructure
+
+const {courseInstructure: instructure}= course
+
+// console.log(courseInstructure);
+console.log(instructure);
+
+
+
+//jason
+// {
+//     "name" : "ritik",
+//     "price" : "free",
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
